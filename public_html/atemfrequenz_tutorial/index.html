@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>CoVideo</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<!--font-->
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<!--needed for bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
+
+	<style>
+		body {
+			background: url('../images/bg.jpg') no-repeat center center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+			-o-background-size: cover;
+		}
+
+		* {
+			font-size: 100%;
+			font-family: 'Source Sans Pro', sans-serif;
+			;
+		}
+	</style>
+
+</head>
+
+<body>
+
+
+	<!--  
+	<header id="header">
+		 <-- added this style manually! 
+		<h1><strong><a href="index.html" style="color: darkslategray">Spatial</a></strong> by Templated</h1>
+		<nav id="nav">
+			<ul>
+				<li><a href="index.html" style="color: darkslategray">Home</a></li>
+				<li><a href="generic.html" style="color: darkslategray">Generic</a></li>
+				<li><a href="elements.html" style="color: darkslategray">Elements</a></li>
+			</ul>
+		</nav>
+	</header>
+-->
+
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-light z-depth-3 border-none"
+		style="background-color: #ffffff; padding-top: 12px; padding-bottom: 12px;">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<strong>CoVideo 🏥</strong>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<!--
+						<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+					-->
+
+				</ul>
+
+				<div class="md-form active-cyan active-cyan-2 mt-0">
+					<input class="form-control" type="text" placeholder="Search" aria-label="Search">
+				</div>
+
+			</div>
+		</div>
+	</nav>
+
+	<!--Page-->
+	<div class="view my-5">
+		<div class="container my-5">
+			<div class="row text-center justify-content-center align-items-center">
+				<div class="col-sm-8">
+					<h2>Wie kann ich meine Atemfrequenz messen?</h2>
+				</div>
+			</div>
+			</br>
+
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-6 col-md-8 col-sm-10 center-block">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe style="border: 1px solid black;" src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+						</iframe>
+					</div>
+
+				</div>
+			</div>
+			</br>
+			<div class="row text-center justify-content-center align-items-center mt-4">
+				<div>
+					<p>Bitte geben Sie Ihre Atemfrequenz pro Minute ein: </p>
+				</div>
+			</div>
+
+			<div class="row justify-content-center align-items-center">
+				<form class="form-row">
+					<div class="col-6">
+						<input type="number" id="atemfrequenz" name="atemfrequenz" class="form-control" required />
+					</div>
+					<div class="col-1">
+						<button" id="register" class="btn btn-primary" />weiter</button>
+					</div>
+				</form>
+			</div>
+
+		</div>
+
+
+
+
+		<script>
+			function onSubmit() {
+				window.location = "../blutdruck_tutorial/index.html"
+			}
+		</script>
+</body>
+
+</html>
